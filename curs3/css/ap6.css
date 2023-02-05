@@ -1,0 +1,24 @@
+p{ 
+    color: green;
+}
+#primulp #aldoileap {
+    color: red;
+}
+.pblu{
+    color: aquamarine;
+}
+.pfont{
+    font-size: 35px;
+}
+
+
+/* toate paragrafele care sunt intr-un div vor avea culoarea de mai jos */
+
+div p {
+    color: violet;
+}
+
+/* facem cu id acelasi lucru  */
+#iddiv #idp {
+    color: tomato;
+}

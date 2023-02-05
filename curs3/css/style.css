@@ -1,0 +1,15 @@
+p {
+    color: yellowgreen;
+}
+h1{
+    font-size: 12px;
+}
+p:hover{
+    color: blue; 
+}
+#demo{
+    color: blueviolet;
+}
+#demo:hover{
+    color: aqua;
+}
