@@ -1,0 +1,17 @@
+div {
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+    outline-color: blue;
+    outline-style: double;
+    outline-width: 5px;
+    padding: 15px;
+}
+#div2 {
+    /* display: none; */
+    visibility: hidden;
+}
