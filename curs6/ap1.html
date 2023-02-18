@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primul formular</title>
+</head>
+
+<body>
+    <h1>Primul formular</h1>
+    <form  action="" method="post" novalidate >
+        <!-- novalidate ii spune html-ului ca sa nu valideze inputurile pt ca o sa faca asta cu javascript/ validarile se fac pe partea de sever
+        obligatoriu -->
+        <label for="nume">Nume</label> <br>
+        <input type="text" name="nume" id="nume" placeholder="Nume" required> <br> 
+        <!-- required - acesta arata ca acest input este obligatoriu -->
+        <label for="prenume">Prenume </label> <br>
+        <input type="text" name="prenume" id="prenume" placeholder="Prenume" required><br>
+        <label for="email"> Adresa de Email </label> <br>
+        <input type="email" name="emailadress" id="email" placeholder="Email"> <br>
+        <label for="pass">Parola</label> <br>
+        <input type="password" name="password" id="pass" placeholder="Password"> <br>
+       
+        <label for="gen">Gen</label> <br>
+
+        <input type="radio" name="gen" id="" value="m"> M 
+        <input type="radio" name="gen" id="" value="f"> F 
+        <input type="radio" name="gen" id="" value="n"> N  <br>
+        <!-- ca sa pot bifa numai un element name trebuie sa aiba aceeasi valoare, in cazul nostru are "gen" -->
+
+
+        <label for="curs"> Prezenta curs </label> <br>
+        <input type="radio" name="curs" id="" value="dimineata" checked> Dimineata
+        <!-- checked selecteaza automat butonul dimineata -->
+        <input type="radio" name="curs" id="" value="pranz" disabled> Pranz 
+        <!-- disabled face ca utilizatorul sa nu poata selecta butonul pranz -->
+        <input type="radio" name="curs" id="" value="seara"> Seara <br> <br>
+        <label for="limbaje"> Limbaje de programare</label> <br>
+        <input type="checkbox" name="php" value="php"> PHP <br>
+        <input type="checkbox" name="html" value="html"> HTML <br>
+        <input type="checkbox" name="js" value="js"> JavaScript <br>
+        <input type="checkbox" name="css" value="css"> CSS <br>
+        <input type="checkbox" name="phylton" value="phylton"> Phylton <br>
+        <!-- in acest exemplu trebuie ca name sa aiba valori diferite -->
+            <br><br>
+        <input type="submit" value="Trimite datele">
+        <input type="reset" value="Sterge datele">
+    </form>
+
+</body>
+
+</html>
