@@ -1,5 +1,5 @@
 input {
-    height: 25px;
+    padding: 15px 15px;
 }
 label{
     width: 150px; 
@@ -15,4 +15,5 @@ div {
     width: 370px;
     margin: auto;
     position: center;
+    
 }
